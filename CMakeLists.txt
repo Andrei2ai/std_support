@@ -13,4 +13,4 @@ target_include_directories(std_memory INTERFACE include)
 
 ################################################################################
 
-install(TARGETS std_memory DESTINATION include)
+install(FILES include/memory.hpp DESTINATION include/std_support)
