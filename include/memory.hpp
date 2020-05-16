@@ -6,7 +6,7 @@
 #include <memory>
 #include <experimental/propagate_const>
 
-namespace std
+namespace std_memory
 {
 template<typename T>
 using propagate_const_ptr  = std::experimental::propagate_const<T>;    
