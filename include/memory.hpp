@@ -9,7 +9,13 @@
 namespace std
 {
 template<typename T>
+using propagate_const_ptr  = std::experimental::propagate_const<T>;    
+
+template<typename T>
 using propagate_const_uptr = std::experimental::propagate_const<std::unique_ptr<T>>;
+
+template<typename T>
+using propagate_const_sptr = std::experimental::propagate_const<std::shared_ptr<T>>;
 }
 
 #endif // C++14
