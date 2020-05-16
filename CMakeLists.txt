@@ -12,3 +12,5 @@ target_sources            (std_memory INTERFACE "${CMAKE_CURRENT_LIST_DIR}/inclu
 target_include_directories(std_memory INTERFACE include)
 
 ################################################################################
+
+install(TARGETS std_memory DESTINATION include)
